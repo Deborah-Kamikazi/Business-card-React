@@ -9,7 +9,7 @@ function App() {
     <>
     <section className='flex justify-center'>
         <div>
-            <img src="/public/Rectangle 90.png" alt="" />
+            <img src="/Rectangle 90.png" alt="" />
                <div className='bg-[#1A1B21] w-[317px] h-[490px]'>
                 {/* texts */}
                   <div className='flex flex-col items-center gap-1'>
@@ -20,11 +20,11 @@ function App() {
                     {/* buttons */}
                     <div className='flex gap-2 mt-4 px-5'>
                        <button className='bg-white w-[115px] h-[34px] rounded-md flex items-center gap-1 justify-center'>
-                           <img src="/public/Icon.svg" alt="" />
+                           <img src="/Icon.svg" alt="" />
                            <p>Email</p> 
                         </button>
                        <button  className='bg-[#5093E2] w-[115px] h-[34px] rounded-md text-white flex items-center gap-1 justify-center'>
-                            <img src="/public/Vector.svg" alt="" />
+                            <img src="/Vector.svg" alt="" />
                             <p >Linedin </p>
                         </button>
                     </div>
@@ -51,10 +51,10 @@ function App() {
                            
                            {/* images */}
                            <div className='flex gap-7 ml-5 mt-4'>
-                            <img src="/public/Twitter Icon.svg" alt="" />
-                            <img src="/public/Facebook Icon.svg" alt="" />
-                            <img src="/public/Instagram Icon.svg" alt="" />
-                            <img src="/public/GitHub Icon.svg" alt="" />
+                            <img src="/Twitter Icon.svg" alt="" />
+                            <img src="/Facebook Icon.svg" alt="" />
+                            <img src="/Instagram Icon.svg" alt="" />
+                            <img src="/GitHub Icon.svg" alt="" />
                            </div>
                       
                     </div>
