@@ -2,14 +2,18 @@
 import './App.css'
 
 function App() {
+  let kami = ""
 
+  function display(){
+    kami= "kami"
+  }
 
 
   return (
     <>
     <section className='flex justify-center'>
         <div>
-            <img src="/public/Rectangle 90.png" alt="" />
+            <img src="./src/assets/Rectangle 90.png" alt="" />
                <div className='bg-[#1A1B21] w-[317px] h-[490px]'>
                 {/* texts */}
                   <div className='flex flex-col items-center gap-1'>
@@ -20,14 +24,16 @@ function App() {
                     {/* buttons */}
                     <div className='flex gap-2 mt-4 px-5'>
                        <button className='bg-white w-[115px] h-[34px] rounded-md flex items-center gap-1 justify-center'>
-                           <img src="/public/Icon.svg" alt="" />
+                           <img src="./src/assets/Icon.svg" alt="" />
                            <p>Email</p> 
                         </button>
-                       <button  className='bg-[#5093E2] w-[115px] h-[34px] rounded-md text-white flex items-center gap-1 justify-center'>
-                            <img src="/public/Vector.svg" alt="" />
+                       <button onClick={display}  className='bg-[#5093E2] w-[115px] h-[34px] rounded-md text-white flex items-center gap-1 justify-center'>
+                            <img src="./src/assets/Vector.svg" alt="" />
                             <p >Linedin </p>
                         </button>
                     </div>
+
+                    <h1 className=' text-white font-bold text-5xl'><p >{kami}</p></h1>
 
                     {/* words */}
                     <div  className='text-white flex flex-col mt-5 px-5 gap-3' >
@@ -51,10 +57,10 @@ function App() {
                            
                            {/* images */}
                            <div className='flex gap-7 ml-5 mt-4'>
-                            <img src="/public/Twitter Icon.svg" alt="" />
-                            <img src="/public/Facebook Icon.svg" alt="" />
-                            <img src="/public/Instagram Icon.svg" alt="" />
-                            <img src="/public/GitHub Icon.svg" alt="" />
+                            <img src="./src/assets/Twitter Icon.svg" alt="" />
+                            <img src="./src/assets/Facebook Icon.svg" alt="" />
+                            <img src="./src/assets/Instagram Icon.svg" alt="" />
+                            <img src="./src/assets/GitHub Icon.svg" alt="" />
                            </div>
                       
                     </div>
